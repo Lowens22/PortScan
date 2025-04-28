@@ -1,4 +1,4 @@
-Escáner de Red y Puertos en Python
+---------------Escáner de Red y Puertos en Python---------------
 Descripción
 Este proyecto es un escáner de red y puertos desarrollado en Python que permite:
 
@@ -12,7 +12,7 @@ Este proyecto es un escáner de red y puertos desarrollado en Python que permite
 
 + El script utiliza programación concurrente para realizar múltiples tareas de escaneo en paralelo, logrando una exploración más rápida y eficiente.
 
-¿Cómo funciona?
+---------------¿Cómo funciona?---------------
 1) Ingreso de red y rango de puertos:
 El usuario introduce una red en formato CIDR (por ejemplo, 192.168.1.0/24) y define el rango de puertos a escanear.
 
@@ -31,13 +31,14 @@ El script muestra:
 
  + Puertos abiertos y, si es posible, el banner del servicio asociado.
 
-Requisitos
+---------------Requisitos---------------
  + Python 3.6+
 
  + Librerías estándar de Python:
  (no requiere instalaciones adicionales)
 
-Uso
+---------------Uso---------------
+
 1)Ejecutar el script:
 
  + bash: python escaner_red.py
@@ -63,7 +64,7 @@ Funciones principales
 + escanear_red(red, inicio_puerto, fin_puerto):
   Coordina la detección de dispositivos activos y el escaneo de sus puertos.
 
-Consideraciones
+---------------Consideraciones---------------
 + Este script necesita permisos adecuados para enviar paquetes ICMP (ping).
 
 + El escaneo de puertos puede ser detectado por firewalls o sistemas de prevención de intrusiones (IDS).
